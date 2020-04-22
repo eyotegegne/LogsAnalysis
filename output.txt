@@ -1,0 +1,44 @@
+vagrant@vagrant:/vagrant$ python3 logsAnalysis.py 
+This tool will be used to get some reports about questions listed below.
+1. What are the most popular three articles of all time? 
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
+Please enter 1, 2 or 3 based on which report you would like to see:  1
+Getting the top 3 most popular articles....
+Candidate is jerk, alleges rival -- 338647 views
+Bears love berries, alleges bear -- 253801 views
+Bad things gone, say good people -- 170098 views
+PostgreSQL connection is closed
+vagrant@vagrant:/vagrant$ python3 logsAnalysis.py 
+This tool will be used to get some reports about questions listed below.
+1. What are the most popular three articles of all time? 
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
+Please enter 1, 2 or 3 based on which report you would like to see:  2
+Getting the 3 most popular authors....
+Ursula La Multa -- 507594 views
+Rudolf von Treppenwitz -- 423457 views
+Anonymous Contributor -- 170098 views
+PostgreSQL connection is closed
+vagrant@vagrant:/vagrant$ python3 logsAnalysis.py 
+This tool will be used to get some reports about questions listed below.
+1. What are the most popular three articles of all time? 
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
+Please enter 1, 2 or 3 based on which report you would like to see:  3
+Getting the dates where there are above 1% of request....
+17-JUL-2016 -- 2.26 % errors
+PostgreSQL connection is closed
+vagrant@vagrant:/vagrant$ python3 logsAnalysis.py 
+This tool will be used to get some reports about questions listed below.
+1. What are the most popular three articles of all time? 
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors?
+Please enter 1, 2 or 3 based on which report you would like to see:  111
+Please enter 1, 2 or 3 and try again:  332
+Please enter 1, 2 or 3 and try again:  dsadsa
+Please enter 1, 2 or 3 and try again:  fdfd
+Please enter 1, 2 or 3 and try again:  3
+Getting the dates where there are above 1% of request....
+17-JUL-2016 -- 2.26 % errors
+PostgreSQL connection is closed
